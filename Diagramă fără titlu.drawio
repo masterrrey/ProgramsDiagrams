@@ -1,9 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T10:40:24.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.7" etag="XnsZIrpz9oMiYQHDhV5G" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T10:51:17.316Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Yme-aKKjd5OOaNkIR56U" version="21.3.7" type="github">
   <diagram name="Pagina-1" id="r-fgVB36t-QS06M4w2zU">
-    <mxGraphModel>
+    <mxGraphModel dx="530" dy="283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dmxr6OrnIFB4P-cTIAiu-1" target="dmxr6OrnIFB4P-cTIAiu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-1" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-2" value="Generate a random&amp;nbsp;&lt;br&gt;word" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dmxr6OrnIFB4P-cTIAiu-5" target="dmxr6OrnIFB4P-cTIAiu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-5" value="Generate as many blanks as letters in word" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dmxr6OrnIFB4P-cTIAiu-6" target="dmxr6OrnIFB4P-cTIAiu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-6" value="Ask the user to guess a letter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-7" value="Is the guessed letter in &lt;br&gt;the word?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="510" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dmxr6OrnIFB4P-cTIAiu-2" target="dmxr6OrnIFB4P-cTIAiu-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="320" as="sourcePoint" />
+            <mxPoint x="570" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dmxr6OrnIFB4P-cTIAiu-11" target="dmxr6OrnIFB4P-cTIAiu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-11" value="Lose a life" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dmxr6OrnIFB4P-cTIAiu-12" target="dmxr6OrnIFB4P-cTIAiu-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-12" value="Replace the blank with the letter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dmxr6OrnIFB4P-cTIAiu-7" target="dmxr6OrnIFB4P-cTIAiu-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="610" as="sourcePoint" />
+            <mxPoint x="500" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="564" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dmxr6OrnIFB4P-cTIAiu-7" target="dmxr6OrnIFB4P-cTIAiu-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="610" as="sourcePoint" />
+            <mxPoint x="500" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="264" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-15" value="Are all the&lt;br&gt;blanks&lt;br&gt;filled?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-16" value="Have they &lt;br&gt;run out &lt;br&gt;of lives?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dmxr6OrnIFB4P-cTIAiu-15" target="dmxr6OrnIFB4P-cTIAiu-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="680" as="sourcePoint" />
+            <mxPoint x="500" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="264" y="840" />
+              <mxPoint x="420" y="840" />
+              <mxPoint x="564" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-21" value="Game Over" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="890" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dmxr6OrnIFB4P-cTIAiu-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="dmxr6OrnIFB4P-cTIAiu-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="840" as="sourcePoint" />
+            <mxPoint x="480" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
